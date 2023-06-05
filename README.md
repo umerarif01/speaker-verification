@@ -14,12 +14,12 @@ This project implements a speaker verification system using MFCC (Mel-Frequency 
 
 ### 1. Training the Model
 
-- Place the voice samples of known speakers in the `voice-samples-2` directory.
+- Place the voice samples of known speakers in the `voice-samples` directory.
 - Run the `train_model.py` script to extract MFCC features, train the SVM model, and save the trained model as `SVC_model_34ssamples.joblib`.
 
 ### 2. Predicting the Speaker
 
-- Place the audio files to be predicted in the `test2` directory.
+- Place the audio files to be predicted in the `test` directory.
 - Run the `predict_speaker.py` script to predict the speaker for each audio file and view the results.
 
 ### Additional Considerations
